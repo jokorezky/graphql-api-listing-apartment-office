@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/mac/.nvm/versions/node/v13.0.0/bin/node /usr/local/bin/yarn add express express-graphql body-parser cors firebase-admin firebase-functions graphql morgan graphql
+
+PATH: 
+  /Users/mac/.nvm/versions/node/v13.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  13.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "graphql-spacestock",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "joko auditis",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  TypeError: Cannot read property '_reference' of undefined
+      at _loop2 (/usr/local/lib/node_modules/yarn/lib/cli.js:50599:36)
+      at PackageLinker.resolvePeerModules (/usr/local/lib/node_modules/yarn/lib/cli.js:50637:19)
+      at PackageLinker.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:50688:12)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:23451:28)
+      at PackageLinker.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:95:12)
+      at PackageLinker.init (/usr/local/lib/node_modules/yarn/lib/cli.js:50693:21)
